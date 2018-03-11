@@ -36,5 +36,5 @@ To reset the database, navigate to `/resetdb.php`
 
 ## Credits
 
-- Shout out to the [https://twitter.com/null0x00](@null0x00) community.
-- This application was initially developed for a SQL Injection humla session conducted [https://twitter.com/nullblr](@nullblr) 
+- Shout out to the [@null0x00](https://twitter.com/null0x00) community.
+- This application was initially developed for a SQL Injection humla session conducted [@nullblr](https://twitter.com/nullblr) 
